@@ -20,6 +20,7 @@ header .container{
     width: 100%;
     margin: 0 auto;
     padding: 0 50px;
+    font-size: 90px;
 }
 .logo{
     display: flex;
@@ -27,8 +28,9 @@ header .container{
     align-items: center;
 }
 .logo img{
-    height: 35px;
-    width: 30px;
+    height: 100px;
+    width: 90px;
+    
 }
 .logo p{
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -44,6 +46,9 @@ ul{
     display: flex;
     gap: 14px;
     list-style: none;
+}
+ul li{
+    padding: 10px 50px ;
 }
 nav{
     display: flex;
@@ -80,7 +85,7 @@ nav{
     height: 100%;
 }
 .todo{
-    cursor: url(quill.jpg);
+    cursor: url(quill.jpg) 6 19, auto;
     display: flex;
     padding: 14px;
 }
